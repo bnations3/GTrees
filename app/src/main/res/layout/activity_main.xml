@@ -9,20 +9,6 @@
     tools:background="#efface"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/TITLE "
-        android:layout_width="311dp"
-        android:layout_height="59dp"
-        android:accessibilityHeading="true"
-        android:text="GTrees Homepage"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="36sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="16dp" />
-
     <Button
         android:id="@+id/projectRequest"
         android:layout_width="326dp"
