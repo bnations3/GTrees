@@ -9,10 +9,11 @@
     tools:showIn="@layout/activity_project_request">
 
     <EditText
-        android:id="@+id/title3"
+
+        android:id="@+id/title2"
         style="@android:style/TextAppearance.DeviceDefault.WindowTitle"
-        android:layout_width="270dp"
-        android:layout_height="87dp"
+        android:layout_width="271dp"
+        android:layout_height="95dp"
         android:autoText="false"
         android:background="@android:color/transparent"
         android:ems="10"
@@ -26,29 +27,31 @@
         android:textStyle="normal|bold"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         tools:fontFamily="casual"
-        tools:layout_editor_absoluteY="52dp"
+        tools:layout_editor_absoluteY="37dp"
         tools:textSize="36sp" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="224dp"
-        android:layout_height="69dp"
+        android:id="@+id/community"
+        android:layout_width="237dp"
+        android:layout_height="76dp"
         android:background="@android:color/holo_green_light"
-        android:text="Community Request"
+        android:text="Community Requests"
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="179dp" />
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="149dp" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="226dp"
-        android:layout_height="74dp"
+        android:id="@+id/georgitech"
+        android:layout_width="240dp"
+        android:layout_height="78dp"
         android:background="@android:color/holo_green_light"
-        android:text="Georgia Tech Maintence Request"
+        android:text="Georgia Tech Maintenance Requests"
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="288dp" />
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="274dp" />
+
 </android.support.constraint.ConstraintLayout>
