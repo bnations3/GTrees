@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        TextView title = (TextView) findViewById(R.id.title);
+
         Button toProjects = (Button) findViewById(R.id.projects);
 
         toProjects.setOnClickListener(new View.OnClickListener() {
