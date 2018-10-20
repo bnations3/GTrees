@@ -57,6 +57,42 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+<<<<<<< HEAD
+=======
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        app:srcCompat="@android:color/holo_green_light"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <EditText
+        android:id="@+id/title"
+        style="@android:style/TextAppearance.DeviceDefault.WindowTitle"
+        android:layout_width="315dp"
+        android:layout_height="86dp"
+        android:autoText="false"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:freezesText="false"
+        android:inputType="none|textPersonName"
+        android:selectAllOnFocus="false"
+        android:text="GTree Homepage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textStyle="normal|bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:fontFamily="casual"
+        tools:layout_editor_absoluteY="52dp"
+        tools:textSize="36sp" />
+
+>>>>>>> cd84cf49e10685061a22ea70b9c74500129aaf23
     <Button
         android:id="@+id/projects"
         android:layout_width="326dp"
