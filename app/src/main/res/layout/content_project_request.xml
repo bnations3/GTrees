@@ -9,6 +9,7 @@
     tools:showIn="@layout/activity_project_request">
 
     <EditText
+
         android:id="@+id/title2"
         style="@android:style/TextAppearance.DeviceDefault.WindowTitle"
         android:layout_width="271dp"
@@ -26,6 +27,7 @@
         android:textStyle="normal|bold"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         tools:fontFamily="casual"
@@ -51,4 +53,5 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
         tools:layout_editor_absoluteX="72dp"
         tools:layout_editor_absoluteY="274dp" />
+
 </android.support.constraint.ConstraintLayout>
