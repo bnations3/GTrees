@@ -18,6 +18,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".projects"
+            android:label="@string/title_activity_projects"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activityFeed"
+            android:label="@string/title_activity_feed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".projectRequest"
+            android:label="@string/title_activity_project_request"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
