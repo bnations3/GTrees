@@ -43,8 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-<<<<<<< HEAD
-=======
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -78,7 +77,6 @@
         tools:layout_editor_absoluteY="52dp"
         tools:textSize="36sp" />
 
->>>>>>> cd84cf49e10685061a22ea70b9c74500129aaf23
     <Button
         android:id="@+id/projects"
         android:layout_width="326dp"
