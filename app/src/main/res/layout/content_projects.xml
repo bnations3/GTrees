@@ -12,15 +12,17 @@
 
     <TextView
         android:id="@+id/projectsTitle"
+        style="@style/AppTheme"
         android:layout_width="183dp"
         android:layout_height="62dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="36dp"
         android:text="Projects"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="36sp"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,6 +37,7 @@
         android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/projectsTitle"
         app:layout_constraintVertical_bias="0.0" />
