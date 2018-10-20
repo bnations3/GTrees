@@ -8,10 +8,11 @@
 
     <TextView
         android:id="@+id/project_name"
-        style="@style/Theme.Design.Light"
-        android:padding="10dp"
-        android:text="  DummyText"
+        style="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
         android:background="@drawable/back"
-        />
+        android:padding="10dp"
+        android:text="  DummyText" />
 
 </RelativeLayout>
