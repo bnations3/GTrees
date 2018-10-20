@@ -8,4 +8,47 @@
     tools:context=".projectRequest"
     tools:showIn="@layout/activity_project_request">
 
+    <EditText
+        android:id="@+id/title2"
+        style="@android:style/TextAppearance.DeviceDefault.WindowTitle"
+        android:layout_width="271dp"
+        android:layout_height="95dp"
+        android:autoText="false"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:freezesText="false"
+        android:inputType="none|textPersonName"
+        android:selectAllOnFocus="false"
+        android:text="Requests Page"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textStyle="normal|bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:fontFamily="casual"
+        tools:layout_editor_absoluteY="37dp"
+        tools:textSize="36sp" />
+
+    <Button
+        android:id="@+id/community"
+        android:layout_width="237dp"
+        android:layout_height="76dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Community Requests"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/georgitech"
+        android:layout_width="240dp"
+        android:layout_height="78dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Georgia Tech Maintenance Requests"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="274dp" />
 </android.support.constraint.ConstraintLayout>
