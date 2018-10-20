@@ -11,8 +11,8 @@
 
     <TextView
         android:id="@+id/TITLE "
-        android:layout_width="311dp"
-        android:layout_height="59dp"
+        android:layout_width="309dp"
+        android:layout_height="53dp"
         android:accessibilityHeading="true"
         android:text="GTrees Homepage"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
