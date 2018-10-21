@@ -29,6 +29,10 @@
         <activity
             android:name=".projectRequest"
             android:label="@string/title_activity_project_request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".communityrequest"
+            android:label="@string/title_activity_communityrequest"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

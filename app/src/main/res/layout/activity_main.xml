@@ -16,7 +16,7 @@
         android:layout_marginBottom="36dp"
         android:background="@android:color/holo_green_light"
         android:freezesText="true"
-        android:text="Request New Project"
+        android:text="New Requests"
         android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
         android:textColor="@android:color/background_light"
         android:textColorHint="@android:color/holo_green_light"
@@ -33,7 +33,7 @@
         android:layout_marginBottom="28dp"
         android:background="@android:color/holo_green_light"
         android:freezesText="true"
-        android:text="Activity Feed"
+        android:text="Leaderboard"
         android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
         android:textColor="@android:color/background_light"
         android:textColorHint="@android:color/holo_green_light"
@@ -71,10 +71,10 @@
         android:textStyle="normal|bold"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         tools:fontFamily="casual"
-        tools:layout_editor_absoluteY="52dp"
+        tools:layout_editor_absoluteY="27dp"
+
         tools:textSize="36sp" />
 
     <Button
@@ -85,7 +85,7 @@
         android:background="@android:color/holo_green_light"
         android:freezesText="true"
         android:text="Available Projects"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
         android:textColor="@android:color/background_light"
         android:textColorHint="@android:color/holo_green_light"
         android:textSize="30sp"
@@ -93,5 +93,6 @@
         app:layout_constraintBottom_toTopOf="@+id/activityFeed"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>
